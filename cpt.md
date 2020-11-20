@@ -7,7 +7,7 @@
   <li>ip address <i>ip-address subnet mask</i> - ip address 192.168.1.1 255.255.255.0</li>
   <li>no shutdown</li>
   <li>exit ip config(ctrl+c)</li>
-  <li>conf t</li>
+  <li>conf t (or) configure terminal</li>
   <li>ip dhcp excluded-address <i>Range of excluded ip address for the network</i> - ip dhcp excluded-address 192.168.1.0 192.168.1.100<i>(optional)</i></li>
   <li>ip dhcp pool <i>pool-name</i> - ip dhcp pool XYZ</li>
   <li>network <i>ip-address subnet-mask</i> - network 192.168.1.1 255.255.255.0</li>
