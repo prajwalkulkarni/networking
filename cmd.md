@@ -9,4 +9,5 @@
   <li><b>ping IP-ADDRESS or DOMAIN</b> - <i> send data packets to specified IP address(usually used to check connectivity)</i></li>
   <li><b>tracert IP-ADDRESS or DOMAIN</b> - <i> list of router path taken by sys to request data from another system(server,system)</i></li>
   <li><b>ipconfig /release</b> – <i>release the current IP address</i></li>
+  <li><b>ipconfig /renew</b> – <i>renew IP address</i></li>
 </ul>
