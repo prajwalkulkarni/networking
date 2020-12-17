@@ -11,4 +11,5 @@
   <li><b>ipconfig /release</b> – <i>release the current IP address</i></li>
   <li><b>ipconfig /renew</b> – <i>renew IP address</i></li>
   <li><b>ipconfig /?</b> - <i>shows help</i></li>
+  <li><b>ipconfig/flushdns</b> – <i>flush the dns cache</i></li>
 </ul>
