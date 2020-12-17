@@ -10,4 +10,5 @@
   <li><b>tracert IP-ADDRESS or DOMAIN</b> - <i> list of router path taken by sys to request data from another system(server,system)</i></li>
   <li><b>ipconfig /release</b> – <i>release the current IP address</i></li>
   <li><b>ipconfig /renew</b> – <i>renew IP address</i></li>
+  <li><b>ipconfig /?</b> - <i>shows help</i></li>
 </ul>
