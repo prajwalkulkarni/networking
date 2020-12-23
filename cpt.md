@@ -14,6 +14,5 @@
   <li>default-router <i>ip-address</i> - default-router 192.168.1.1 (defualt gateway)</li>
   <li>dns-server <i>ip-address</i> - dns-server 8.8.8.8</li>
   <li>ip route <i>newtork ip address subnet mask entry ip address</i> - ip route 192.168.43.1 255.255.255.0 192.168.2.2</li>
-  
 </ol>
   
