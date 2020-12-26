@@ -12,4 +12,5 @@
   <li><b>ipconfig /renew</b> – <i>renew IP address</i></li>
   <li><b>ipconfig /?</b> - <i>shows help</i></li>
   <li><b>ipconfig/flushdns</b> – <i>flush the dns cache</i></li>
+  <ul><b>netstat</b> - <i>Displays active TCP connections, ports on which the computer is listening, Ethernet statistics, the IP routing table, IPv4 statistics etc</i>
 </ul>
