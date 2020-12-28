@@ -72,5 +72,15 @@
  <li>Follow above two steps for other vlans as well</li>
 </ol>
  
+ 
+ <h2>OSPF configuration</h2>
+ <ol type="roman">
+  <li>en ->conf t</li>
+  <li>int <i>interface-name</i> - int gig0/0</li>
+  <li>router ospf <i>ospf</i> - router ospf 1</li>
+  <li>network <i>start ip address of the port wildcard subnet mask</i> area <i>area</i> - network 192.168.43.0 0.0.0.255</li>
+  <li>exit</li>
+  <li> Repeast the above steps for all the routers[2 per router(inward and outward port)]</li>
+ </ol>
   
   
