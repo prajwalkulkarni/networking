@@ -48,6 +48,29 @@
   <li>no shut -> exit</li>
 </ol>
   
-  
+ <h2>Vlan configuration</h2>
+ <b>CLI</b>
+ <b>Switch configuration</b>
+ <li>open switch -> en -> conf t</li>
+ <li>vlan <i>arbitrary number</i> - vlan 10 (or) vlan 20 so forth</li>
+ <li>name <i>vlan-name</i> - vlan abc [DO IT FOR ALL THE VLAN WITH DIFFERENT ARBITRARY NUMBERS]</li>
+ <li>exit -> conf t</li>
+ <li><b>a.</b>int <i>interface-name</i> - int fa0/0</li>
+ <li><b>b.</b>switchport access vlan <i>arbitrary-number</i></li>
+ <li>repeat <b>a and b</b> for all the vlans</li>
+ <li>conf t -> int <i>interface connecting to router</i> - int fa0/5</li>
+ <li>switchport mode trunk</li>
+ <li>exit</li>
+ <li>copy running-config startup-config</li>
+ 
+ <b>Router Config</b>
+ <li>en -> conf t</li>
+ <li>int <i>interface-port</i>.<i>vlan</i> - int fa0/0.10 [Enter sub interface mode]</li>
+ <li>encapsulation dot1Q <i>vlan</i> - encapsulation dot1Q 10</li>
+ <li>ip address <i>gateway address subnet mask</i> - ip address 192.168.10.1 255.255.255.0</li>
+ <li>exit</li>
+ <li>Follow above two steps for other vlans as well</li>
+</ol>
+ 
   
   
