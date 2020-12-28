@@ -80,7 +80,7 @@
   <li>router ospf <i>ospf</i> - router ospf 1</li>
   <li>network <i>start ip address of the port wildcard subnet mask</i> area <i>area</i> - network 192.168.43.0 0.0.0.255 area 0</li>
   <li>exit</li>
-  <li> Repeast the above steps for all the routers[2 per router(inward and outward port)]</li>
+  <li> Repeat the above steps for all the routers[2 per router(inward and outward port)]</li>
  </ol>
   
   
