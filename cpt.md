@@ -37,8 +37,16 @@
   <li>int <i>port-name</i> - int fa1/0, int serial2/0[PORT-2 or the PORT connecting to adjacent router]</li>
   <li>nat outside enable - [public network]</li>
   <li>access-list <i>arbitrary number</i> permit <i>address range(wildmask subnet)</i> - access-list 1 permit 192.168.1.0 0.0.0.255 {meaning: 192.168.1.0-192.168.1.255}</li>
+  <li>ip nat inside source list <i>arbitrary number as given in previous command</i> interface <i>interface connecting to external network</i> overload - ip nat inside source list 1 interface fa1/0 overload</li>
   <li>exit</li>
-  <li>
+  <li>ip interface brief - [connection status](optional</li>
+  
+  <li>GO TO OTHER ROUTER</li>
+  <li>en -> conf t</li>
+  <li>int <i>interface-name</i> - int fa1/0</li>
+  <li>ip address <i>ip address</i> - ip address 117.45.23.2</li>
+  <li>no shut -> exit</li>
+</ol>
   
   
   
