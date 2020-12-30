@@ -32,7 +32,7 @@
   <li>exit ip config(ctrl+c)</li>
   <li>conf t (or) configure terminal</li>
   <li>int <i>port-name</i> - int fa0/0, int serial2/0[Internal]</li>
-  <li>nat inside enable - [private network]</li>
+  <li>ip nat inside enable - [private network]</li>
   <li>exit</li>
   <li>int <i>port-name</i> - int fa1/0, int serial2/0[PORT-2 or the PORT connecting to adjacent router]</li>
   <li>nat outside enable - [public network]</li>
