@@ -15,4 +15,3 @@
   <li><b>netstat</b> - <i>Displays active TCP connections, ports on which the computer is listening, Ethernet statistics, the IP routing table, IPv4 statistics etc</i></li>
   <li><b>arp</b> - <i>Displays and modifies the IP-to-Physical address translation tables used by address resolution protocol (ARP).</i></li>
 </ul>
-.
